@@ -3,28 +3,28 @@ body {
 }
 
 .overlay {
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	z-index: 3;
-	background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .slides-navigation {
-	z-index: 6;
+    z-index: 6;
 }
 
 .slides-navigation .prev,
 .slides-navigation .next {
-	width: 47px;
-	height: 47px;
-	background-size: cover;
-	background-repeat: no-repeat;
+    width: 47px;
+    height: 47px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
 .titleMessage {
-	position: absolute;
+    position: absolute;
     width: 100%;
     height: 250px;
     top: 50%;
@@ -34,18 +34,18 @@ body {
 }
 
 .titleMessage .heading p {
-	color: #fff;
+    color: #fff;
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
     font-weight: 100;
     letter-spacing: 7px;
 }
 
 .titleMessage .heading .main {
-	font-size: 50px;
+    font-size: 50px;
 }
 
 .titleMessage .heading .sub {
-	font-size: 23px;
+    font-size: 23px;
 }
 
 .section {
@@ -58,7 +58,7 @@ body {
 
 
 .aboutImage {
-    max-width: 100%;   
+    max-width: 100%;
 }
 
 .skillsSection {
@@ -67,14 +67,42 @@ body {
 }
 
 .slides-navigation a.prev {
-        background-image: url(../css/icons/left2.png);
-        left: 30px;
-
-
-
+    background-image: url(../css/icons/left2.png);
+    left: 30px;
 }
 
 .slides-navigation a.next {
     right: 30px;
     background-image: url(../css/icons/right2.png);
+}
+
+.skill {
+    text-align: center;
+    margin-left: 10px;
+
+}
+
+.chart {
+    position: relative;
+    width: 152px;
+    height: 152px;
+    display: inline-block;
+    text-align: center;
+}
+
+.chart canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.chart .percent {
+    color: #fff;
+    line-height: 152px;
+    display: inline-block;
+    font-size: 35px;
+}
+
+.chart. percent:after {
+    content: '%';
 }
