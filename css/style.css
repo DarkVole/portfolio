@@ -41,11 +41,11 @@ body {
 }
 
 .titleMessage .heading .main {
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .titleMessage .heading .sub {
-    font-size: 23px;
+    font-size: 32px;
 }
 
 .section {
@@ -105,4 +105,13 @@ body {
 
 .chart. percent:after {
     content: '%';
+}
+
+.skillImage {
+
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
 }

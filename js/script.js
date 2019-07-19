@@ -6,7 +6,7 @@ $(document).ready(function () {
     });
 
     var typed = new Typed(".typed", {
-        strings: ["Web Developer", "Webpage Designer", "Electrical Engineer", "Author", "Lifetime Learner", "Continuous Improvement Leader"],
+        strings: ["FullStack Developer", "Experienced Programmer", "Webpage Designer", "Out of the Box Thinker", "Lifetime Scholar","Electrical Engineer", "Author",  "Continuous Improvement Guru"],
         typeSpeed: 70,
         loop: true,
         startDelay: 1000,
