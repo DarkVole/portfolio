@@ -6,7 +6,7 @@ $(document).ready(function () {
     });
 
     var typed = new Typed(".typed", {
-        strings: ["FullStack Developer", "Experienced Programmer", "Webpage Designer", "Out of the Box Thinker", "Lifetime Scholar","Electrical Engineer", "Author",  "Continuous Improvement Guru"],
+        strings: ["FullStack Developer", "Experienced Programmer", "Webpage Designer", "Out of the Box Thinker", "Lifetime Scholar","Electrical Engineer", "Business Novel Author",  "Continuous Improvement Guru"],
         typeSpeed: 70,
         loop: true,
         startDelay: 1000,
@@ -42,10 +42,10 @@ $(document).ready(function () {
 
 			$('.chart').easyPieChart({
 		        easing: 'easeInOut',
-		        barColor: '#fff',
+		        barColor: 'lightgreen',
 		        trackColor: false,
 		        scaleColor: false,
-		        lineWidth: 4,
+		        lineWidth: 10,
 		        size: 152,
 		        onStep: function(from, to, percent) {
 		        	$(this.el).find('.percent').text(Math.round(percent));
